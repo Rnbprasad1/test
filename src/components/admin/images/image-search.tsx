@@ -12,6 +12,7 @@ export function ImageSearch({ onSearch }: ImageSearchProps) {
     onSearch(term);
   };
 
+  //
   return (
     <EnhancedSearch
       onSearch={handleSearch}
